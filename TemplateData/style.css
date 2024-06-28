@@ -58,14 +58,16 @@ body {
 
 #spinner {
     position: absolute;
-    top: 50%;
+    width: 90px;
+    height: 90px;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 #loading-text {
     position: absolute;
-    top: calc(50% + 160px);
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
